@@ -1,0 +1,61 @@
+html {
+  background: url("/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+nav > img {
+  height: 100px;
+}
+nav > button {
+  background-color: #db6600;
+  box-shadow: 4px 4px 4px #db66004f;
+  cursor: pointer;
+  color: #fff;
+  border-style: hidden;
+  width: 8em;
+  height: 45px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.menu {
+  position: absolute;
+  background-color: #9e9e9e7e;
+  width: 100%;
+  margin-top: 100px;
+  top: 100;
+  padding: 25px;
+}
+.menu > h1 {
+  font-size: 75px;
+  color: #db6600;
+}
+.menu > h3 {
+  margin-top: -10;
+  color: #fff;
+}
+.menu > button {
+  background-color: #db6600;
+  box-shadow: 4px 4px 4px #db66004f;
+  cursor: pointer;
+  color: #fff;
+  border-style: hidden;
+  width: 8em;
+  height: 45px;
+  margin: 20px;
+  border-radius: 10px;
+}
